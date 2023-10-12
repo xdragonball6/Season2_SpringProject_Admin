@@ -1,0 +1,158 @@
+@charset "UTF-8";
+	.chart-container{
+	width : 80%;
+	height : 80%;
+	}
+
+
+	
+	/* 
+	.adminBody{
+			float: left;
+			width: 100%;
+			overflow: hidden;
+	
+	}
+	.Hcontainer {
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 5px;
+	}
+	.box {
+		float: left;
+		width: 300px;
+		height: 200px;
+		background-color: rgb(240, 248, 255);
+		margin-right: 5px;
+		box-sizing: border-box;
+	}
+	
+	.sidebar{
+		float: left;
+		width: 150px;
+		height: 100%;
+		background-color: RGB(135, 206, 250);
+		margin-right: 10px;
+		
+		
+		box-sizing: border-box;
+	
+	
+	}
+	.Headsidebar{
+		float: left;
+		width: 100px;
+		height: 100%;
+		background-color:rgb(70, 130, 180);
+		margin-right: 10px;
+		box-sizing: border-box;
+	
+	
+	}
+	.headbar{
+		float: left;
+		width: 100%-100px;
+		height: 100%;
+		background-color: rgb(70, 130, 180); 
+		
+		margin-right: 1px;
+		box-sizing: border-box;
+	
+	} */
+	.headbar{
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  height: 60px;
+	  }
+	
+	.sidebar {
+	  position: fixed;
+	  top:0;
+	  left: 0;
+	  bottom: 0;
+	  width: 200px;
+	  margin-top: 75px;
+	  background-color: #000000;
+	}
+			
+	.container_mk {
+	
+		margin-top: 60px;
+		width: 100%;
+		
+	}
+	
+ 	.wrapper {
+	  margin-left: 200px; /* 사이드바 너비만큼 왼쪽 여백 설정 */
+	  padding: 10px;
+ 	}
+	
+	.content {
+	  display : flex;
+	  width: 100%; /* wrapper의 너비에서 사이드바 너비를 뺀 값으로 설정 */
+	} 
+	
+	.array{
+	flex : 1;
+	padding : 5px;
+	}
+	
+
+	
+	
+	
+/*  이 아래는 bootstrap 위해서 가져온 파트 */
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+ 
