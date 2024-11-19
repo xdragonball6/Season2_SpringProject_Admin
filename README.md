@@ -1,7 +1,8 @@
 # Little_And_Precious_Spring_Admin
-Java MVC패턴으로 제작했던 프로젝트를 Spring Boot로 이식
-Java MVC 제작 기간 - (2023-05-29 ~ 2023-06-13)
-Spring 제작 기간 - (2023-06-19 ~ 2023-06-21)
+Java MVC패턴으로 제작했던 프로젝트를 Spring Boot로 이식</br>
+Java MVC 제작 기간 - (2023-05-29 ~ 2023-06-13)</br>
+Spring 제작 기간 - (2023-06-19 ~ 2023-06-21)</br>
+실제 구현했던 깃 페이지는 <a href="https://github.com/kangdeagyu/spring_main_team1">이곳</a></br>
 ------
 <a href="https://drive.google.com/file/d/13W7W6Z3XxzOHrVMRnuKx_cSb8NKovpYm/view?usp=sharing" title="PDF로 이동" rel="nofollow"><img src="https://github.com/xdragonball6/EveryThing/raw/main/스크린샷 2023-10-11 오후 2.49.56.png" alt="cover" style="max-width: 100%;"></a>
 ----
